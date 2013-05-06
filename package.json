@@ -1,0 +1,19 @@
+{
+  "name": "yaml-node",
+  "version": "0.0.1",
+  "description": "adds YAML.read to yaml-js library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RyanV/yaml-node.git"
+  },
+  "dependencies":{
+    "yaml-js": "0.0.7"
+  },
+  "devDependencies": {
+    "jasmine-node": "1.7.0"
+  },
+  "keywords": [ "yaml", "node" ],
+  "author": "Ryan Venegas",
+  "license": "BSD"
+}
