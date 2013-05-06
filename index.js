@@ -4,7 +4,7 @@ var YAML = require('yaml-js'),
 function readFile(filepath) {
   var contents;
   try {
-    contents = fs.readFileSync(String(filepath));
+    contents = fs.readFileSync(String(filepath), 'utf8');
     return contents;
   } catch(e) {
     throw 'Unable to read "' + filepath + '" file (Error code: ' + e.code + ').'
